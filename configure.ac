@@ -20,7 +20,7 @@ AC_PROG_CPP
 # Checks for libraries.
 CPPFLAGS=" -nostdlib"
 CFLAGS=" -nostdinc -I$(pwd)/include"
-CXXFLAGS=" -nostdinc++ -I$(pwd)/include"
+CXXFLAGS=" -nostdinc++ -I$(pwd)/include --coverage -g -O0"
 LDFLAGS=" -nostdlib -L{$(pwd)}/lib"
 
 # Checks for header files.
