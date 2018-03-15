@@ -1,1 +1,1 @@
-# eagle-libc [![Build Status](https://travis-ci.org/ValentinProdhomme/eagle-libc.svg?branch=master)](https://travis-ci.org/ValentinProdhomme/eagle-libc)
+# eagle-libc [![Build Status](https://travis-ci.org/ValentinProdhomme/eagle-libc.svg?branch=master)](https://travis-ci.org/ValentinProdhomme/eagle-libc) [![codecov](https://codecov.io/gh/ValentinProdhomme/eagle-libc/branch/master/graph/badge.svg)](https://codecov.io/gh/ValentinProdhomme/eagle-libc)

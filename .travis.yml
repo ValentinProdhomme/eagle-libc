@@ -14,3 +14,5 @@ compiler:
   - clang
   - gcc
 script: "aclocal && autoconf && automake --add-missing -v && ./configure && make"
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
