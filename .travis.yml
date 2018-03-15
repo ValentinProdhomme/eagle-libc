@@ -13,6 +13,4 @@ language: c
 compiler:
   - clang
   - gcc
-script: "aclocal && autoconf && automake --add-missing -v && ./configure && make && make && gcov --directory ."
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+script: "aclocal && autoconf && automake --add-missing -v && ./configure && make && make"
